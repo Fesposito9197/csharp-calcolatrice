@@ -14,3 +14,11 @@ Console.WriteLine(CalcoliHelper.MoltiplicazioneDouble(3.3 , 3.3));
 Console.WriteLine("valore assoluto");
 Console.WriteLine(CalcoliHelper.ValoreAssoluto(5));
 Console.WriteLine(CalcoliHelper.ValoreAssolutoDouble(-5.5));
+
+Console.WriteLine("minimo");
+Console.WriteLine(CalcoliHelper.Minimo(3,8));
+Console.WriteLine(CalcoliHelper.MinimoDouble(4.5,5.6));
+
+Console.WriteLine("Massimo");
+Console.WriteLine(CalcoliHelper.Massimo(8,3));
+Console.WriteLine(CalcoliHelper.MassimoDouble(1.2 , 5.4));
