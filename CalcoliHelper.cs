@@ -14,5 +14,13 @@ public static class CalcoliHelper
     public static int Differenza(int a, int b) => a - b;
 
     public static double DifferenzaDouble(double a, double b) => a - b;
+
+    public static int Moltiplicazione(int a, int b) => a * b;
+
+    public static double MoltiplicazioneDouble(double a, double b) => a * b;
+
+    public static int ValoreAssoluto(int a) => Math.Abs(a);
+
+    public static double ValoreAssolutoDouble(double a) => Math.Abs(a);    
 }
 
