@@ -22,13 +22,24 @@ public static class CalcoliHelper
     public static int ValoreAssoluto(int a) => Math.Abs(a);
 
     public static double ValoreAssolutoDouble(double a) => Math.Abs(a);
-    
-    public static int Minimo(int a , int b ) => Math.Min(a, b);
+
+    public static int Minimo(int a, int b) => Math.Min(a, b);
 
     public static double MinimoDouble(double a, double b) => Math.Min(a, b);
 
-    public static int Massimo(int a , int b) => Math.Max(a, b);
+    public static int Massimo(int a, int b) => Math.Max(a, b);
 
-    public static double MassimoDouble(double a , double b)=> Math.Max(a, b);
+    public static double MassimoDouble(double a, double b) => Math.Max(a, b);
+
+    public static int ElevazionePotenza(int @base, int esponente)
+    {
+        if (@base == 0 || esponente == 0)
+        {
+            return 1;
+        }else
+        {
+            return (int)Math.Pow(@base , esponente);
+        }
+    }
 }
 
